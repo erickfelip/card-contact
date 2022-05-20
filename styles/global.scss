@@ -9,6 +9,17 @@ body {
   text-size-adjust: 100%;
   height: auto;
 }
+
+a {
+  color: #0a234a;
+  text-decoration: unset;
+  font-size: 1.2em;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -85,5 +96,5 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 1.5em;
+  gap: 1.7em;
 }

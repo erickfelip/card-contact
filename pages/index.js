@@ -1,4 +1,6 @@
-import { IoQrCodeOutline, IoShareSocialOutline } from "react-icons/io5";
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMobile, faQrcode } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -12,23 +14,35 @@ export default function Home() {
               <p> Diretor CDA Distribuidora Azevedo</p>
             </div>
             <div className="contact">
-              <a
-                title="Qr-code"
-                href="https:/github.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <IoQrCodeOutline />
+              {/* <a href="https:/github.com" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faQrcode} size="2x" />
               </a>
-              <p> Salvar na Agenda </p>
               <a href="https:/github.com" target="_blank" rel="noreferrer">
-                <IoShareSocialOutline />
-              </a>
+                <FontAwesomeIcon icon={["fab", "whatsapp"]} size="2x" />
+              </a> */}
             </div>
             <div className="profile-icons">
-              <p> 1 </p>
-              <p> 2 </p>
-              <p> 3 </p>
+              <a href="https:/github.com" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon
+                  icon={("fab", "qrcode")}
+                  size="2x"
+                  style={{ width: 30 }}
+                />
+              </a>
+              <a href="https:/github.com" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon
+                  icon={["fab", "whatsapp"]}
+                  size="2x"
+                  style={{ width: 30 }}
+                />
+              </a>
+              <a href="https:/github.com" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon
+                  icon={("fab", "envelope")}
+                  size="2x"
+                  style={{ width: 30 }}
+                />
+              </a>
             </div>
           </div>
         </div>
