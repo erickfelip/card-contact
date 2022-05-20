@@ -1,3 +1,5 @@
+import { IoQrCodeOutline, IoShareSocialOutline } from "react-icons/io5";
+
 export default function Home() {
   return (
     <div className="container">
@@ -10,9 +12,18 @@ export default function Home() {
               <p> Diretor CDA Distribuidora Azevedo</p>
             </div>
             <div className="contact">
-              <p> Teste</p>
-              <p> Teste</p>
-              <p> Teste</p>
+              <a
+                title="Qr-code"
+                href="https:/github.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IoQrCodeOutline />
+              </a>
+              <p> Salvar na Agenda </p>
+              <a href="https:/github.com" target="_blank" rel="noreferrer">
+                <IoShareSocialOutline />
+              </a>
             </div>
             <div className="profile-icons">
               <p> 1 </p>
