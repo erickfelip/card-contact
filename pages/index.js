@@ -9,6 +9,11 @@ export default function Home() {
             <div className="position">
               <p> Diretor CDA Distribuidora Azevedo</p>
             </div>
+            <div className="contact">
+              <p> Teste</p>
+              <p> Teste</p>
+              <p> Teste</p>
+            </div>
             <div className="profile-icons">
               <p> 1 </p>
               <p> 2 </p>

@@ -43,6 +43,7 @@ body {
   height: 300px;
   background-color: white;
   margin: auto;
+  /*  margin-top: -20px; */
   padding: 1em;
   border-radius: 10px;
   box-shadow: 0 0 15px 1px;
@@ -75,4 +76,12 @@ body {
   justify-content: space-evenly;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5em;
 }
