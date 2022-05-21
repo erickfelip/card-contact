@@ -9,6 +9,7 @@ import {
   faEnvelope,
   faMobile,
   faQrcode,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
 function initFontAwesome() {
@@ -19,7 +20,8 @@ function initFontAwesome() {
     faTelegram,
     faWhatsapp,
     faMobile,
-    faEnvelope
+    faEnvelope,
+    faXmark
   );
 }
 export default initFontAwesome;

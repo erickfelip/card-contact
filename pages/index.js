@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Modal from "../components/Modal";
 
 export default function Home() {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <div className="container">
       <div className="header">
@@ -10,15 +13,23 @@ export default function Home() {
           <div className="info">
             <p> Marcelo Elias</p>
             <div className="position">
-              <p> Diretor CDA Distribuidora Azevedo</p>
+              <p> Diretor CDA Distribuidora Azevedo </p>
             </div>
             <div className="profile-icons">
-              <a href="https:/github.com" target="_blank" rel="noreferrer">
+              <a
+                onClick={() => setShowModal(true)}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon
                   icon={("fab", "qrcode")}
                   size="2x"
                   style={{ width: 40, height: 40 }}
                 />
+                <Modal
+                  show={showModal}
+                  onClose={() => setShowModal(false)}
+                ></Modal>
               </a>
               <a
                 href="https://wa.me/558491083265"

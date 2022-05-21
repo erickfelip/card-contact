@@ -1,0 +1,45 @@
+.modal {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 20px;
+  /*   z-index: 100px; */
+  background-color: white;
+}
+
+.headerr {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 17px;
+}
+
+.body {
+  padding-top: 20px;
+  border: 0.1px solid #ccc;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.closebutton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: -100px;
+}
