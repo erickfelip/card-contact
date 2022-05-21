@@ -26,7 +26,8 @@ a {
   justify-content: center;
 }
 .header {
-  height: 140px;
+  position: fixed;
+  height: 155px;
   background-image: linear-gradient(
     to right top,
     #030b17,
@@ -36,6 +37,7 @@ a {
     #0a234a
   );
   width: 100%;
+  margin-top: 155px;
 }
 
 .avatar {
@@ -47,7 +49,7 @@ a {
   margin: auto;
   margin-top: 25px;
   position: relative;
-  margin-bottom: -20px;
+  margin-bottom: -30px;
 }
 
 .profile {
