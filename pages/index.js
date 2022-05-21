@@ -1,6 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMobile, faQrcode } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -13,34 +12,34 @@ export default function Home() {
             <div className="position">
               <p> Diretor CDA Distribuidora Azevedo</p>
             </div>
-            <div className="contact">
-              {/* <a href="https:/github.com" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon={faQrcode} size="2x" />
-              </a>
-              <a href="https:/github.com" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon={["fab", "whatsapp"]} size="2x" />
-              </a> */}
-            </div>
             <div className="profile-icons">
               <a href="https:/github.com" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon
                   icon={("fab", "qrcode")}
                   size="2x"
-                  style={{ width: 30 }}
+                  style={{ width: 40, height: 40 }}
                 />
               </a>
-              <a href="https:/github.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://wa.me/558491083265"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon
                   icon={["fab", "whatsapp"]}
                   size="2x"
-                  style={{ width: 30 }}
+                  style={{ width: 40, height: 40 }}
                 />
               </a>
-              <a href="https:/github.com" target="_blank" rel="noreferrer">
+              <a
+                href="mailto: marcelo.elias@cdanatal.com.br"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon
                   icon={("fab", "envelope")}
                   size="2x"
-                  style={{ width: 30 }}
+                  style={{ width: 40, height: 40 }}
                 />
               </a>
             </div>
